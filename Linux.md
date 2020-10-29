@@ -37,7 +37,7 @@ Without logsm you're being blind
 ### Memory
 |Description|Command|
 |-------|:-----------------|
-|Dump the memory|use Lime (https://github.com/504ensicslabs/lime)|
+|Dump the memory|use Lime (https://github.com/504ensicslabs/lime)<br />Link: https://github.com/LNB283/Forensics/blob/main/Lime.md|
 ### Disk
 |Description|Command|
 |-------|:-----------------|
