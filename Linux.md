@@ -8,12 +8,22 @@
 - [ ] Physical config
 - [ ] Network Information
 - [ ] Archival media
-
 ----------------------
 ```bash
 Without logsm you're being blind
 ```
 
+### Logs Linux
+|Description|Command|
+|-------|:-----------------|
+|System Info.|name<br />uname -a<br />hostname<br />cat /proc/version<br />lsmod<br />service --status-all|
+|Disk info|fdisk -l|
+|Disk usage|df -H|
+|Network|ifconfig -a<br />netstat -plant<br />ss -l<br />ss -tp|
+|User|whoami<br />last<br />lastb<br />/var/log/auth.log<br />/etc/shadow<br />/etc/sudoers<br />/etc/sudoers.d/*<br />getent passwdlast|
+
+
+----------------------
 ### Process
 |Description|Command|
 |-------|:-----------------|
