@@ -21,11 +21,11 @@
 Without logsm you're being blind
 ```
 
-|Description|Command|Comment|Screenshot
-|-------|:-----------------|:-----------------|:-----------------|
-|Collect ALL Logs|log show > {path}/{file name}.txt|`Attention`: This command create a file with ALL logs.This file may be really **BIG**.|![alt text](https://github.com/LNB283/Forensics/blob/main/img/img1.png)|
-|Collect log from a certain period|sudo log collect–start"YYYY-MM-DD" --output <path>|Generate a lorgarchive file.|![alt text](https://github.com/LNB283/Forensics/blob/main/img/img2.png)|
-|Open the log file|log show <file>||![alt text](https://github.com/LNB283/Forensics/blob/main/img/img3.png)|  
+|Description|Command|Comment|
+|-------|:-----------------|:-----------------|
+|Collect ALL Logs|log show > {path}/{file name}.txt|`Attention`: This command create a file with ALL logs.This file may be really **BIG**.|
+|Collect log from a certain period|sudo log collect–start"YYYY-MM-DD" --output <path>|Generate a lorgarchive file.|
+|Open the log file|log show <file>||
 
 ----------------------
 ### Location
