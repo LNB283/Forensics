@@ -22,9 +22,12 @@ Without logsm you're being blind
 |Process information|cat /proc/PID/comm<br />cat /proc/PID/cmdline|
 |environment variables informaiton|strings /proc/PID/environ|
 |Process using|ls -al /proc/PID/fd <br />cat /proc/PID/maps|
+|Process status|cat /proc/PID/status<br />cat /proc/PID/stack|
+|Process working directory|sudo ls -alr /proc/*/cwd<br />cwd means current working directory|
 ### Memory
 |Description|Command|
 |-------|:-----------------|
+|Dump the memory|use Lime (https://github.com/504ensicslabs/lime)|
 ### Disk
 |Description|Command|
 |-------|:-----------------|
