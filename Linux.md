@@ -31,6 +31,7 @@ Without logsm you're being blind
 ### Disk
 |Description|Command|
 |-------|:-----------------|
+|Capture Disk Image|see all of Disk : fdisk -l<br />sudo ddd if=/dev/<Disk ID> of=/tmp/Disk_YYYYMMDD_image|
 ### Misc
 |Description|Command|
 |-------|:-----------------|
