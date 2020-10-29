@@ -1,5 +1,5 @@
 # Mac  : Basic commands to perform forensic
-### Evidences collection
+### Evidence collection
 - [ ] Registers and cache
 - [ ] Routing table, arp cache , process table , kernel statistics ,memory
 - [ ] Temp system files
