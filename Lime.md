@@ -11,7 +11,7 @@
 OR
 - sudo insmod ./lime-5.4.0-1011-aws.ko "path=lime.dump format=raw"
 ### Checksum
-In order to guarantee the non-repudiation and the chain of custody
-md5sum lime.dump
-Attention: keep the hash on a secure place in order to be able to
+- In order to guarantee the non-repudiation and the chain of custody
+- md5sum lime.dump
+- **Attention**: keep the hash on a secure place in order to be able to
 proof the authenticity of the file
